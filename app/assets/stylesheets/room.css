@@ -32,6 +32,7 @@ li {
   border-radius: 5px;
   box-sizing: border-box;
 }
+
 .chat-room-form__errors {
   margin: 30px 0;
   padding: 20px 40px;
@@ -39,12 +40,14 @@ li {
   border-radius: 2px;
   text-align: center;
 }
+
 .chat-room-form__label {
   display: block;
   line-height: 50px;
   font-weight: bold;
   text-align: right;
 }
+
 .chat-room-form__input {
   float: left;
   width: 100%;
@@ -52,6 +55,7 @@ li {
   padding: 10px 15px;
   box-sizing: border-box;
 }
+
 .chat-room-form__action-btn {
   display: inline-block;
   padding: 12px 20px;
@@ -59,14 +63,17 @@ li {
   background-color: #38aef0;
   border: 0;
 }
+
 .chat-room-form__field {
   margin-top: 30px;
 }
+
 .chat-room-form__field:after {
   content: "";
   clear: both;
   display: block;
 }
+
 .chat-room-form__field--left {
   float: left;
   width: 30%;
@@ -74,6 +81,7 @@ li {
   padding-left: 20px;
   box-sizing: border-box;
 }
+
 .chat-room-form__field--right {
   float: right;
   width: 70%;
@@ -88,4 +96,8 @@ select {
   background-color: #434a54;
   height: 80px;
   width: 100%;
+}
+
+.field_with_errors {
+  display: contents;
 }
